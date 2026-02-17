@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mise & Margin — Restaurant & Hospitality Consultants</title>
+  <meta name="description" content="Mise & Margin transforms restaurants and hospitality businesses through strategic consulting — menu design, operations, mystery shopping, and brand direction." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-main">Mise <em>&</em> Margin</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact" class="nav__cta">Work With Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grain"></div>
+      <div class="hero__lines"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__eyebrow">Restaurant &amp; Hospitality Consulting</div>
+      <h1 class="hero__headline">
+        <span class="hero__headline-line">Your Restaurant,</span>
+        <span class="hero__headline-line hero__headline-line--accent">Sharpened.</span>
+      </h1>
+      <p class="hero__sub">
+        Mise &amp; Margin works with restaurants and hospitality brands to strip away the noise,
+        identify what's working, and rebuild with precision — from the menu board to the floor plan.
+      </p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Start the Conversation</a>
+        <a href="#services" class="btn btn--ghost">See What We Do</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Menu Engineering</span>
+      <span class="marquee__dot">·</span>
+      <span>Mystery Shopping</span>
+      <span class="marquee__dot">·</span>
+      <span>Operational Audits</span>
+      <span class="marquee__dot">·</span>
+      <span>Brand Direction</span>
+      <span class="marquee__dot">·</span>
+      <span>Staff Training</span>
+      <span class="marquee__dot">·</span>
+      <span>Concept Development</span>
+      <span class="marquee__dot">·</span>
+      <span>Menu Engineering</span>
+      <span class="marquee__dot">·</span>
+      <span>Mystery Shopping</span>
+      <span class="marquee__dot">·</span>
+      <span>Operational Audits</span>
+      <span class="marquee__dot">·</span>
+      <span>Brand Direction</span>
+      <span class="marquee__dot">·</span>
+      <span>Staff Training</span>
+      <span class="marquee__dot">·</span>
+      <span>Concept Development</span>
+      <span class="marquee__dot">·</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__left">
+          <div class="section-label">Who We Are</div>
+          <h2 class="about__headline">
+            The gap between a good restaurant and a great one is always fixable.
+          </h2>
+        </div>
+        <div class="about__right">
+          <p class="about__body">
+            <strong>Mise &amp; Margin</strong> is a hospitality consultancy built for operators who are serious about growth.
+            We embed ourselves in your business — not just to observe, but to understand the full picture:
+            the guest experience, the margins, the team culture, and the brand story.
+          </p>
+          <p class="about__body">
+            Whether you're a single-location independent or a growing multi-concept group,
+            we bring sharp strategy and real-world experience to every engagement.
+            No fluff. No templates. Just honest, hands-on consulting that moves the needle.
+          </p>
+          <div class="about__stats">
+            <div class="stat">
+              <div class="stat__num">15+</div>
+              <div class="stat__label">Years of Industry Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">200+</div>
+              <div class="stat__label">Restaurants Transformed</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">40%</div>
+              <div class="stat__label">Avg. Margin Improvement</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">What We Do</div>
+        <h2 class="section-title">Every restaurant has a different problem. <br/><em>We find yours.</em></h2>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="service-card" data-index="01">
+          <div class="service-card__num">01</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 38V14C8 11.8 9.8 10 12 10H36C38.2 10 40 11.8 40 14V38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M4 38H44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M16 22H32M16 28H28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Menu Engineering</h3>
+          <p class="service-card__body">
+            We analyze your menu structure, pricing psychology, and item profitability to design a menu that sells your highest-margin dishes — without the guest ever knowing.
+          </p>
+          <div class="service-card__tags">
+            <span>Pricing Strategy</span>
+            <span>Item Mix</span>
+            <span>Design Layout</span>
+          </div>
+        </div>
+
+        <div class="service-card" data-index="02">
+          <div class="service-card__num">02</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="18" r="8" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 28C15.16 28 8 33.37 8 40H40C40 33.37 32.84 28 24 28Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M36 12L40 8M36 8L40 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Mystery Shopping</h3>
+          <p class="service-card__body">
+            See your restaurant through your guest's eyes. Our trained evaluators visit anonymously and deliver detailed reports on service quality, food execution, ambiance, and consistency.
+          </p>
+          <div class="service-card__tags">
+            <span>Guest Experience</span>
+            <span>Service Audit</span>
+            <span>Benchmarking</span>
+          </div>
+        </div>
+
+        <div class="service-card" data-index="03">
+          <div class="service-card__num">03</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 36L20 24L28 32L40 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="40" cy="16" r="3" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Operational Audit</h3>
+          <p class="service-card__body">
+            From kitchen flow to front-of-house choreography, we identify friction in your operations, reduce waste, and create systems your team can execute consistently every shift.
+          </p>
+          <div class="service-card__tags">
+            <span>Workflow</span>
+            <span>Cost Control</span>
+            <span>SOP Development</span>
+          </div>
+        </div>
+
+        <div class="service-card" data-index="04">
+          <div class="service-card__num">04</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 8L28 18H40L30 25L34 36L24 29L14 36L18 25L8 18H20L24 8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Brand &amp; Concept Direction</h3>
+          <p class="service-card__body">
+            Struggling to articulate what makes you different? We help you find your restaurant's identity and translate it into a coherent story — for your team, your guests, and your marketing.
+          </p>
+          <div class="service-card__tags">
+            <span>Positioning</span>
+            <span>Storytelling</span>
+            <span>Concept Clarity</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">How It Works</div>
+        <h2 class="section-title">A process built around <em>your</em> reality.</h2>
+      </div>
+      <div class="process__steps">
+        <div class="process-step">
+          <div class="process-step__num">01</div>
+          <div class="process-step__content">
+            <h3>Discovery Call</h3>
+            <p>We start by listening. Tell us about your restaurant, your challenges, and your goals. No pitch. No pressure. Just a real conversation.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">02</div>
+          <div class="process-step__content">
+            <h3>On-Site Assessment</h3>
+            <p>We come to you. We eat your food, talk to your team, observe your service, and dig into the numbers that matter.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">03</div>
+          <div class="process-step__content">
+            <h3>Strategy Delivery</h3>
+            <p>You receive a clear, prioritized action plan — not a 60-page report nobody reads. Specific recommendations with measurable outcomes.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">04</div>
+          <div class="process-step__content">
+            <h3>Implementation Support</h3>
+            <p>We stay in your corner. Whether it's weekly check-ins or hands-on coaching, we support your team through the change.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__left">
+          <div class="section-label">Get In Touch</div>
+          <h2 class="contact__headline">
+            Ready to stop leaving money on the table?
+          </h2>
+          <p class="contact__sub">
+            Fill in the form and one of our consultants will reach out within 48 hours for an initial conversation.
+            There's no commitment — just clarity.
+          </p>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <div class="contact__detail-label">Email</div>
+              <div class="contact__detail-val">hello@miseandmargin.com</div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-label">Response Time</div>
+              <div class="contact__detail-val">Within 48 hours</div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__right">
+          <form class="form" id="contactForm" novalidate>
+            <div class="form__row form__row--two">
+              <div class="form__group">
+                <label class="form__label" for="firstName">First Name <span class="req">*</span></label>
+                <input class="form__input" type="text" id="firstName" name="firstName" placeholder="Jane" required />
+                <div class="form__error" id="firstNameError"></div>
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="lastName">Last Name <span class="req">*</span></label>
+                <input class="form__input" type="text" id="lastName" name="lastName" placeholder="Smith" required />
+                <div class="form__error" id="lastNameError"></div>
+              </div>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Email Address <span class="req">*</span></label>
+              <input class="form__input" type="email" id="email" name="email" placeholder="jane@yourrestaurant.com" required />
+              <div class="form__error" id="emailError"></div>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="phone">Phone Number</label>
+              <input class="form__input" type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="restaurant">Restaurant / Business Name <span class="req">*</span></label>
+              <input class="form__input" type="text" id="restaurant" name="restaurant" placeholder="The Golden Fork" required />
+              <div class="form__error" id="restaurantError"></div>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="service">Area of Interest</label>
+              <select class="form__input form__select" id="service" name="service">
+                <option value="" disabled selected>Select a service area</option>
+                <option value="menu">Menu Engineering</option>
+                <option value="mystery">Mystery Shopping</option>
+                <option value="operations">Operational Audit</option>
+                <option value="brand">Brand &amp; Concept Direction</option>
+                <option value="full">Full Consulting Engagement</option>
+                <option value="unsure">Not Sure — Need Guidance</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="message">Tell Us About Your Challenge</label>
+              <textarea class="form__input form__textarea" id="message" name="message" placeholder="What's the biggest challenge your restaurant is facing right now?" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+              <span class="btn__text">Send My Details</span>
+              <span class="btn__spinner" aria-hidden="true"></span>
+            </button>
+            <div class="form__success" id="formSuccess" aria-live="polite">
+              <div class="form__success-icon">✓</div>
+              <div class="form__success-text">
+                <strong>Message received.</strong> We'll be in touch within 48 hours.
+              </div>
+            </div>
+            <p class="form__disclaimer">We respect your privacy. Your information is never sold or shared.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">Mise <em>&</em> Margin</div>
+          <p class="footer__tagline">Restaurant &amp; Hospitality Consulting</p>
+        </div>
+        <div class="footer__links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; <span id="year"></span> Mise &amp; Margin. All rights reserved.</p>
+        <p class="footer__credit">Built with intention.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
